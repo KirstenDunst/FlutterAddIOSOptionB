@@ -1,0 +1,2 @@
+# FlutterAddIOSOptionB
+静态包framework形式引入flutter module
