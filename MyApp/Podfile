@@ -9,6 +9,7 @@ target 'MyApp' do
   pod 'Alamofire'
   pod 'SnapKit'
 
-#flutter
-  
+ #flutter
+  pod 'MyFlutterPod', :path => '../MyFlutterPod'
+
 end

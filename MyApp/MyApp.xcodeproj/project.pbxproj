@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B339BE474696962AF7FD629F /* Pods_MyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143ECDE0B26DC38A2F8EE7B1 /* Pods_MyApp.framework */; };
 		DB8D38DF24123F0200F1E0E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D38DE24123F0200F1E0E6 /* AppDelegate.swift */; };
 		DB8D38E324123F0200F1E0E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D38E224123F0200F1E0E6 /* ViewController.swift */; };
 		DB8D38E624123F0200F1E0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8D38E424123F0200F1E0E6 /* Main.storyboard */; };
@@ -15,6 +14,8 @@
 		DB8D38EB24123F0600F1E0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8D38E924123F0600F1E0E6 /* LaunchScreen.storyboard */; };
 		DB8D38F624123F0600F1E0E6 /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D38F524123F0600F1E0E6 /* MyAppTests.swift */; };
 		DB8D390124123F0600F1E0E6 /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D390024123F0600F1E0E6 /* MyAppUITests.swift */; };
+		DB8D390F2413943200F1E0E6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D390E2413943100F1E0E6 /* SecondViewController.swift */; };
+		DBE5B0FC2415E272006FFE75 /* Pods_MyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143ECDE0B26DC38A2F8EE7B1 /* Pods_MyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DB8D38FC24123F0600F1E0E6 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8D390024123F0600F1E0E6 /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
 		DB8D390224123F0600F1E0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8D390E2413943100F1E0E6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B339BE474696962AF7FD629F /* Pods_MyApp.framework in Frameworks */,
+				DBE5B0FC2415E272006FFE75 /* Pods_MyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +116,7 @@
 			children = (
 				DB8D38DE24123F0200F1E0E6 /* AppDelegate.swift */,
 				DB8D38E224123F0200F1E0E6 /* ViewController.swift */,
+				DB8D390E2413943100F1E0E6 /* SecondViewController.swift */,
 				DB8D38E424123F0200F1E0E6 /* Main.storyboard */,
 				DB8D38E724123F0600F1E0E6 /* Assets.xcassets */,
 				DB8D38E924123F0600F1E0E6 /* LaunchScreen.storyboard */,
@@ -146,7 +149,6 @@
 				67D6DA3306178C91C9AF2BC9 /* Pods-MyApp.debug.xcconfig */,
 				5D693C43E32D935B99AC7CEA /* Pods-MyApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -325,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8D390F2413943200F1E0E6 /* SecondViewController.swift in Sources */,
 				DB8D38E324123F0200F1E0E6 /* ViewController.swift in Sources */,
 				DB8D38DF24123F0200F1E0E6 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +418,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -431,13 +435,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "armv7 arm64 arm64e armv7s";
 			};
 			name = Debug;
 		};
@@ -475,6 +480,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -485,13 +491,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64 arm64e armv7s";
 			};
 			name = Release;
 		};
@@ -501,15 +508,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TG5E95RU8K;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.csx.MyApp;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.brainco.focusGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 arm64e armv7s";
 			};
 			name = Debug;
 		};
@@ -519,15 +531,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TG5E95RU8K;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.csx.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.brainco.focusGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 arm64e armv7s";
 			};
 			name = Release;
 		};

@@ -1,0 +1,28 @@
+{
+  "name": "MyFlutterPod",
+  "version": "0.1.0",
+  "summary": "A short description of MyFlutterPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KirstenDunst/MyFlutterPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KirstenDunst": "cao_shixin@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/KirstenDunst/MyFlutterPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyFlutterPod/Classes/**/*",
+  "static_framework": true,
+  "ios": {
+    "vendored_frameworks": [
+      "ios_frameworks/*.framework"
+    ]
+  }
+}
