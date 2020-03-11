@@ -1,0 +1,16 @@
+PODS:
+  - FlutteriOSPod (0.1.0)
+
+DEPENDENCIES:
+  - FlutteriOSPod (from `../`)
+
+EXTERNAL SOURCES:
+  FlutteriOSPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FlutteriOSPod: 23ce68e30e27addb23d5810889e217c4a6cc83e0
+
+PODFILE CHECKSUM: dbdcd799661d27236782751bd07d647b49caba6a
+
+COCOAPODS: 1.9.0
