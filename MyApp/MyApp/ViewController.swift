@@ -29,7 +29,9 @@ class ViewController: UIViewController {
         
         //游戏模块使用导航的话需要添加触发方法，来控制导航的返回。目前用模态弹出，flutter是会操作关闭的。
 //        self.navigationController?.pushViewController(flutterViewController, animated: true)
-        present(flutterViewController, animated: true, completion: nil)
+        present(flutterViewController, animated: true, completion: {
+            print("结果如下")
+        })
     }
 
 }

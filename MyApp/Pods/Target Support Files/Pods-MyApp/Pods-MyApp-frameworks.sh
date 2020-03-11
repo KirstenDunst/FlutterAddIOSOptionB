@@ -198,22 +198,22 @@ fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/App.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/audioplayers.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/Flutter.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/flutter_lottie_brainco.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/Lottie.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/path_provider.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/App.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/audioplayers.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/flutter_lottie_brainco.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/Lottie.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/path_provider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/App.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/audioplayers.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/Flutter.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/flutter_lottie_brainco.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/Lottie.framework"
-  install_framework "${PODS_ROOT}/../../MyFlutterPod/ios_frameworks/path_provider.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/App.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/audioplayers.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/flutter_lottie_brainco.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/Lottie.framework"
+  install_framework "${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/path_provider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

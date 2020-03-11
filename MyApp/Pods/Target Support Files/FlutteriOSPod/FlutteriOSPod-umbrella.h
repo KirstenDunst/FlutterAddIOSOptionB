@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double MyFlutterPodVersionNumber;
-FOUNDATION_EXPORT const unsigned char MyFlutterPodVersionString[];
+FOUNDATION_EXPORT double FlutteriOSPodVersionNumber;
+FOUNDATION_EXPORT const unsigned char FlutteriOSPodVersionString[];
 

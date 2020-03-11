@@ -1,0 +1,28 @@
+{
+  "name": "FlutteriOSPod",
+  "version": "0.0.1",
+  "summary": "Development of dependency hosting mixed with flutter",
+  "description": "TODO: For the hybrid development of flutter module in iOS project",
+  "homepage": "https://github.com/BrainCoTech/FlutteriOSPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KirstenDunst": "cao_shixin@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/BrainCoTech/FlutteriOSPod.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlutteriOSPod/Classes/**/*",
+  "static_framework": true,
+  "ios": {
+    "vendored_frameworks": [
+      "ios_frameworks/*.framework"
+    ]
+  }
+}

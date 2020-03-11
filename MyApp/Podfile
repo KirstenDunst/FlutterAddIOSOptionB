@@ -10,6 +10,7 @@ target 'MyApp' do
   pod 'SnapKit'
 
  #flutter
-  pod 'MyFlutterPod', :path => '../MyFlutterPod'
+#  pod 'FlutteriOSPod', :path => '../FlutteriOSPod'
+   pod 'FlutteriOSPod', :git=> 'git@github.com:BrainCoTech/FlutteriOSPod.git', :tag => '0.0.1'
 
 end

@@ -1,11 +1,11 @@
 PODS:
   - Alamofire (5.0.0)
-  - MyFlutterPod (0.1.0)
+  - FlutteriOSPod (0.0.1)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
-  - MyFlutterPod (from `../MyFlutterPod`)
+  - FlutteriOSPod (from `../FlutteriOSPod`)
   - SnapKit
 
 SPEC REPOS:
@@ -14,14 +14,14 @@ SPEC REPOS:
     - SnapKit
 
 EXTERNAL SOURCES:
-  MyFlutterPod:
-    :path: "../MyFlutterPod"
+  FlutteriOSPod:
+    :path: "../FlutteriOSPod"
 
 SPEC CHECKSUMS:
   Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
-  MyFlutterPod: b093877e5cf97e558388f97deea92735e54cccd8
+  FlutteriOSPod: 660d47847b091ab266c5d621be1c35f94dc8e035
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 06d7dcd542fa0504dc2b108e7a9da8e5c3d68e88
+PODFILE CHECKSUM: d0c7464d00b9005b8fb6a254aedee4d4c3c591d2
 
 COCOAPODS: 1.9.0

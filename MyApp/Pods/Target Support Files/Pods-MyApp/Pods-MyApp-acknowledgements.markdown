@@ -24,7 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## MyFlutterPod
+## FlutteriOSPod
 
 Copyright (c) 2020 KirstenDunst <cao_shixin@yahoo.com>
 

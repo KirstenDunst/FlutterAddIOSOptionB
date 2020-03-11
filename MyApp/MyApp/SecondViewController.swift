@@ -23,6 +23,10 @@ class SecondViewController: FlutterViewController {
 //        messageEventChannel.setStreamHandler(self)
     }
     
+    deinit {
+        print("shuchusbv")
+    }
+    
     
     /// 实例化方法
     /// - Parameters:
