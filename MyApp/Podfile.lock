@@ -5,23 +5,21 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - FlutteriOSPod (from `../FlutteriOSPod`)
+  - FlutteriOSPod (~> 0.0.1)
   - SnapKit
 
 SPEC REPOS:
+  https://github.com/BrainCoTech/FlutteriOSSpecs.git:
+    - FlutteriOSPod
   https://github.com/CocoaPods/Specs:
     - Alamofire
     - SnapKit
 
-EXTERNAL SOURCES:
-  FlutteriOSPod:
-    :path: "../FlutteriOSPod"
-
 SPEC CHECKSUMS:
   Alamofire: 58ff2bfb8daaacaa233d5c36e37b10a5248f59b1
-  FlutteriOSPod: 660d47847b091ab266c5d621be1c35f94dc8e035
+  FlutteriOSPod: ed0f4f0b15cb42c0d313d7371c11ae63e948f0f6
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: d0c7464d00b9005b8fb6a254aedee4d4c3c591d2
+PODFILE CHECKSUM: 06bc1bf2a9b8e0e616a2b0d4327acb2c6c82af09
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.1

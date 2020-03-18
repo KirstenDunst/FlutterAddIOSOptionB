@@ -1,9 +1,9 @@
 ${PODS_ROOT}/Target Support Files/Pods-MyApp/Pods-MyApp-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/App.framework
-${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/audioplayers.framework
-${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/Flutter.framework
-${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/flutter_lottie_brainco.framework
-${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/Lottie.framework
-${PODS_ROOT}/../../FlutteriOSPod/ios_frameworks/path_provider.framework
+${PODS_ROOT}/FlutteriOSPod/ios_frameworks/App.framework
+${PODS_ROOT}/FlutteriOSPod/ios_frameworks/audioplayers.framework
+${PODS_ROOT}/FlutteriOSPod/ios_frameworks/Flutter.framework
+${PODS_ROOT}/FlutteriOSPod/ios_frameworks/flutter_lottie_brainco.framework
+${PODS_ROOT}/FlutteriOSPod/ios_frameworks/Lottie.framework
+${PODS_ROOT}/FlutteriOSPod/ios_frameworks/path_provider.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

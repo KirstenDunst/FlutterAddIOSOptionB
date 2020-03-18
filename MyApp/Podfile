@@ -1,6 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '10.0'
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/BrainCoTech/FlutteriOSSpecs.git'
 
 target 'MyApp' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -11,6 +12,7 @@ target 'MyApp' do
 
  #flutter
 #  pod 'FlutteriOSPod', :path => '../FlutteriOSPod'
-   pod 'FlutteriOSPod', :git=> 'git@github.com:BrainCoTech/FlutteriOSPod.git', :tag => '0.0.1'
+#   pod 'FlutteriOSPod', :git=> 'git@github.com:BrainCoTech/FlutteriOSPod.git', :tag => '0.0.1'
+   pod 'FlutteriOSPod', '~>0.0.1'
 
 end

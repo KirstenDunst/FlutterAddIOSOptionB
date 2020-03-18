@@ -1,0 +1,11 @@
+framework module flutter_lottie_brainco {
+  umbrella header "flutter_lottie_brainco-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_lottie_brainco.Swift {
+    header "flutter_lottie_brainco-Swift.h"
+    requires objc
+}
